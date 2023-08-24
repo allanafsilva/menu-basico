@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    position: absolute;
+    top: 4.6%;
+    width: 100%;
+
+}
+
+.navigation-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-navigation{
+    color: white;
+    opacity: 0.9;
+
+    background-color: white;
+
+
+    position: fixed;
+    
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.main-navigation .main-navigation-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 3%;
+    background-color: rgb(241, 157, 210);
+}
+
+.main-navigation .main-navigation-ul li{
+    list-style: none;
+}
+
+.main-navigation .main-navigation-ul a{
+    color: rgb(199, 38, 199);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+
+.main-navigation .main-navigation-ul a:hover{
+    color: black;
+}
+
